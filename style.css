@@ -1,0 +1,54 @@
+/* body{
+    background-image: url("https://wallpaperaccess.com/full/1862824.png");
+    mask-image: radial-gradient(circle at 90% 70%, rgba(255,255,255,.1) 0%, rgba(0,0,0,1) 60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes example{
+    0%{padding: 5;
+        transform:rotateX(30deg);
+        left:0px; top: 0px;}
+    25%{padding: 10;
+        left:100px; top: 0px;}
+    50%{padding: 20;
+        transform:rotateX(90deg);
+        left:100px; top: 100px;}
+    75%{padding: 25;
+        transform:rotateX(120deg);
+        left:0px; top: 100px;}
+    100%{padding: 30px;
+        transform: rotateX(150deg);
+        left:0px; top: 0px;}
+}
+*{
+    box-sizing: border-box;
+}
+#calc{
+    background-color:rgb(210, 70, 70);
+    padding: 10px;
+    max-width: 500px;
+    margin: 200px auto;
+    box-shadow: 20px 16px 2px rgb(205, 76, 76);
+    animation-name: example;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+h1{
+    text-align: center;
+}
+#temp-image{
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
+}
+form{
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+input:hover{
+    background-color:cornsilk ;
+} */
